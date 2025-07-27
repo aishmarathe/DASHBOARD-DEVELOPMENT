@@ -1,96 +1,71 @@
 # DASHBOARD-DEVELOPMENT
-Smart Traffic & Pollution Analysis Dashboard (Power BI)
-Overview
-This project presents a Smart Traffic & Pollution Analysis Dashboard built using Power BI, based on real-world data from OpenAQ (Open Air Quality Platform). The dashboard helps visualize and analyze the distribution of various pollutants across cities, with a special focus on PM2.5 levels.
+* COMPANY: CODTECH IT SOLUTIONS
+* NAME: AISHWARYA ZUNJAR MARATHE
+* INTERN ID: CITS0D676
+* DOMAIN: DATA ANALYTICS
+* DURATION: 6 WEEKS
+* MENTOR: NEELA SANTOSH
+# Smart Traffic & PM2.5 Pollution Analysis Dashboard (Power BI)
 
-Objective
-The main goal of this dashboard is to:
+## Project Overview
 
-Identify areas with high air pollution levels
+This project presents a Power BI dashboard that visualizes air pollution data collected from the OpenAQ dataset. The primary focus is on analyzing PM2.5 pollutant levels across different cities. The dashboard is designed to help users identify high-pollution areas and understand the spread and intensity of air pollutants, especially in traffic-heavy zones.
 
-Analyze the PM2.5 pollutant trends
+## Objective
 
-Help users understand the impact of pollution on traffic-heavy areas
+- Analyze real-time and historical pollution data
+- Identify regions with high levels of PM2.5 pollutants
+- Track pollution trends across cities and time periods
+- Provide an interactive and visual representation to assist in traffic and environmental planning
 
-Data Source
-OpenAQ API Dataset
-The dataset includes real-time and historical air quality data collected from different cities.
+## Data Source
 
-Main pollutant attributes:
+- **Dataset**: OpenAQ (Open Air Quality Platform)
+- **Attributes used**:
+  - Location (City, Country)
+  - Date and Time of measurement
+  - Pollutant types: PM2.5, PM10, CO, NO2, SO2, O3
+  - Pollution value and unit
 
-PM2.5
+## Key Features of the Dashboard
 
-PM10
+- Interactive filters for pollutant type, city, and date range
+- Focused analysis on PM2.5 pollution trends
+- City-wise comparison of pollution levels
+- Time-series analysis showing changes in pollution over time
+- Identification of the most polluted cities and regions
 
-CO
+## Tools Used
 
-NO2
+- Power BI Desktop
+- Power Query for data cleaning and transformation
+- DAX (Data Analysis Expressions) for calculated fields
+- OpenAQ dataset (CSV format)
 
-SO2
+## Insights and Observations
 
-O3
+- PM2.5 levels were consistently higher in certain urban and industrial areas
+- Specific times of the day and year showed peak pollution levels
+- Cities with high traffic density often had higher PM2.5 concentrations
+- PM2.5 is a critical pollutant due to its ability to penetrate deep into the lungs and bloodstream
 
-Key Features of the Dashboard
-City-wise pollution concentration visualization
+## How to Use the Dashboard
 
-Filterable views for:
+1. Open the `.pbix` file using Power BI Desktop
+2. Use the slicers and filters to explore:
+   - Specific cities or countries
+   - Individual pollutants, especially PM2.5
+   - Time ranges to see historical trends
+3. Analyze visualizations such as:
+   - Line charts for pollution over time
+   - Bar charts showing most affected cities
+   - Heatmaps for regional pollution intensity
 
-Country
+## Future Improvements
 
-City
+- Integrate live data from the OpenAQ API
+- Combine with traffic density datasets for better correlation analysis
+- Add forecasting using time-series modeling
+- Deploy as a web-based interactive dashboard
 
-Pollutant type
 
-Date range
-
-Heatmap and bar charts showing:
-
-Top polluted cities
-
-Highest PM2.5 concentrations
-
-Temporal analysis (by hour/day/month)
-
-Focused insights on PM2.5, which is considered one of the most dangerous air pollutants due to its ability to enter the lungs and bloodstream
-
-Tools Used
-Power BI Desktop
-
-Power Query Editor
-
-DAX (Data Analysis Expressions)
-
-OpenAQ dataset (.csv or connected API)
-
-Insights Gained
-Identified cities with consistently high PM2.5 levels
-
-Observed daily and monthly variations in pollution
-
-Recognized pollution spikes in traffic-dense regions
-
-How to Use
-Open the .pbix file in Power BI Desktop
-
-Use filters to select:
-
-A specific city or region
-
-Pollutant (focus on PM2.5 for detailed insights)
-
-Time period
-
-View visualizations like:
-
-PM2.5 trend lines
-
-City-wise pollution rankings
-
-Comparative pollutant levels
-
-Future Enhancements
-Add traffic volume data to correlate with pollution levels
-
-Implement real-time monitoring with OpenAQ API connection
-
-Predict pollution spikes using ML models
